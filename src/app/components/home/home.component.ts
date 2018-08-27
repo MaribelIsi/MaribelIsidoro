@@ -12,7 +12,6 @@ import { Stay } from '../../models/Stay.model';
 export class HomeComponent implements OnInit {
 
   model:Date;
-  url:string = "http://localhost/json-exam";
   listFun:Fun[];
   listStay:Stay[];
 
